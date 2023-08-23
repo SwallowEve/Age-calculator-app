@@ -4,7 +4,7 @@
 
 @layer components{
   .wrap-corner{
-    border-bottom-right-radius: 50% !important;
+    border-bottom-right-radius: 110px !important;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
