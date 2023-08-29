@@ -11,9 +11,10 @@ type Props = {
     placeholder:string;
     validation: {required: {value: boolean, message: string}, min: {value: string, message: string}, max: {value: string, message: string}, maxLength: {value: number, message: string}};
     name: string;
+    mainStatus: boolean;
 }
 
-const Input = ({ label, type, id, placeholder, validation, name}: Props) => {
+const Input = ({ label, type, id, placeholder, validation, name, mainStatus}: Props) => {
     const {
         register,
         formState: { errors },
@@ -21,13 +22,13 @@ const Input = ({ label, type, id, placeholder, validation, name}: Props) => {
 
     const inputError:any = findInputError(errors, name)
     const isInvalid = isInputInvalid(inputError)
-   
+     
     return (
         <div className="w-20 sm:w-24 md:w-36 m-0">
         <label 
         htmlFor={id} 
         className={
-            isInvalid ? 
+            (!mainStatus || isInvalid) ? 
             "uppercase tracking-widest text-xs font-semibold md:font-bold text-red-500" :
             "uppercase tracking-widest text-xs font-semibold md:font-bold text-slate-500"}>
             {label}
