@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![img](./screenshot.jpg)![1693305266864](image/README-template/1693305266864.png)
+![1693305266864](image/README-template/1693305266864.png)
 
 ### Links
 
@@ -55,7 +55,7 @@ Users should be able to:
 - https://tailwindcss.com/docs/installation - All needed information about Tailwind, including predefined classes and 'How-to' for customisation
 - https://blog.logrocket.com/import-svgs-next-js-apps/ - This is an amazing article which helped me to configure  SVG files usage in React
 - https://www.freecodecamp.org/news/how-to-validate-forms-in-react/ - A good helper to tune form validation in React
-- https://www.positronx.io/react-send-data-from-child-to-parent-component-tutorial/ - An article with clear instructions of passing props from child to parent component
+- https://www.positronx.io/react-send-data-from-child-to-parent-component-tutorial/ - An articlewith clear instructions of passing props from child to parent component
 - https://www.codehim.com/date-time/javascript-calculate-age-in-years-months-days/ - I used this concept for age calculation
 
 ## Author
