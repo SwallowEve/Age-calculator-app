@@ -1,6 +1,6 @@
-# Frontend Mentor - Age calculator app solution
+# Age calculator app solution
 
-This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q). 
+This is a solution to the [Age calculator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q).
 
 ## Table of contents
 
@@ -39,7 +39,7 @@ Users should be able to:
 
 ![](./screenshot.jpg)
 
-Add a screenshot of your solution. 
+Add a screenshot of your solution.
 
 ### Links
 

@@ -2,7 +2,6 @@ import { useFormContext } from "react-hook-form"
 import { findInputError } from "../utils/findInputError";
 import {isInputInvalid} from "../utils/isInputInvalid"
 import { AnimatePresence, motion } from "framer-motion";
-// import {MdError} from "react-icons/md"
 
 type Props = {
     label:string;
@@ -34,7 +33,7 @@ const Input = ({ label, type, id, placeholder, validation, name, mainStatus}: Pr
             {label}
         </label>       
         <input
-            className="border-solid border border-slate-300 hover:border-indigo-600 active:border-indigo-600 focus:border-indigo-600 rounded-md w-5/6 h-10 md:h-14 text-base sm:text-lg md:text-xl lg:text-2xl font-extrabold md:font-black pl-2 md:pl-4 mt-1" 
+            className="border-solid border border-slate-300 hover:border-[#864cff] focus-visible:outline-[#864cff] focus:outline-[#864cff] rounded-md w-5/6 h-10 md:h-14 text-base sm:text-lg md:text-xl lg:text-2xl font-extrabold md:font-black pl-2 md:pl-4 mt-1" 
             type={type} 
             id={id} 
             placeholder={placeholder}
@@ -59,7 +58,6 @@ const InputError = ({message}:any) => {
             className="italic pt-2 tracking-tighter font-normal text-xs text-red-500 bg-white-100"
             {...framer_error}
         >
-            {/* <MdError /> */}
             {message}
         </motion.p>
     )

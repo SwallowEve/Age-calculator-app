@@ -1,7 +1,7 @@
 export const calcAge = (dateEntered: string[]) => {
 
-const today = new Date();    
-const age = []
+	const today = new Date();    
+	const age = []
  
     let by:number = Number.parseFloat(dateEntered[2]),
 		bm:number = Number.parseFloat(dateEntered[1]),
@@ -18,7 +18,8 @@ const age = []
 		months = tm - bm + 12;
 		ty = ty - 1;
 	} else months = tm - bm;
-    years = ty - by;
+    
+	years = ty - by;
     age.push(years, months, days);
     
  return(age)

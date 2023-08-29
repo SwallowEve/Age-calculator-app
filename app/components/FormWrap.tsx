@@ -18,13 +18,13 @@ export default function FormWrap() {
             <hr className="m-5 md:m-8 mt-14 md:mt-9 h-0.2 bg-slate-100 "></hr>
             <div className="m-5 md:m-8 mt-10 text-5xl md:text-6xl tracking-tight font-black italic mb-10">
                 <p className=" text-black">
-                    <span id="pYear" className="text-indigo-600">{age.year}</span> years
+                    <span id="pYear" className="text-[#864cff]">{age.year}</span> years
                 </p>
                 <p className=" text-black">
-                    <span id="pMonth" className="text-indigo-600">{age.month}</span> months
+                    <span id="pMonth" className="text-[#864cff]">{age.month}</span> months
                 </p>
                 <p className=" text-black">
-                    <span id="pDay" className="text-indigo-600">{age.day}</span> days
+                    <span id="pDay" className="text-[#864cff]">{age.day}</span> days
                 </p>
             </div>
         </div>

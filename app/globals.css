@@ -5,19 +5,16 @@
 @layer components{
   .wrap-corner{
     border-bottom-right-radius: 110px !important;
-}
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 
-input[type=number] {
-  -moz-appearance: textfield;
-}
-input:focus {
-  border-color: indigo !important;
-}
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
 }
 
 @font-face {

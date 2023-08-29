@@ -124,7 +124,7 @@ const Form = (Props: { sendData: (arg0: { year: string; month: string; day: stri
                 <div className="w-0 md:w-40 m-0"></div>                
                 <button 
                     onClick={onSubmit}
-                    className="bg-black hover:bg-indigo-600 active:bg-indigo-600 border-solid border border-transparent rounded-full w-12 md:w-16 h-12 md:h-16 absolute right-24 -bottom-20 sm:right-32 md:-bottom-16 md:right-8" type="submit"
+                    className="bg-black hover:bg-[#864cff] active:bg-[#864cff] border-solid border border-transparent rounded-full w-12 md:w-16 h-12 md:h-16 absolute right-24 -bottom-20 sm:right-32 md:-bottom-16 md:right-8" type="submit"
                 >
                     <Image
                         className="ml-3 md:ml-4 w-5 md:w-8"
